@@ -1,0 +1,45 @@
+#container{
+    margin: 50px;
+    align-items: center;
+}
+.content{ 
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 1rem;
+    
+   
+}
+.pageTittle{
+    text-align: center;
+}
+.filters{
+   
+    height: 75px;
+    width: 300px;  
+}
+.membership{
+    margin-left: 25px;
+    padding: 10px;
+    
+}
+
+.activityClass{
+background-color: #AA96DA;
+border-radius: 10px;
+
+}
+.activityId{
+    height: 100px;
+    width: 95%;
+    padding-top: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.pickedActivities{
+    background-color: #C5FAD5;
+    border-radius: 10px;
+   
+}
+.pickedActivities .h2{
+  margin-left: 25px;
+}
